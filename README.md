@@ -1,10 +1,10 @@
 # Multi-threaded TCP Port Scanner
 
-A lightweight port scanner written in Python. Developed as a practical project to understand network sockets, multi-threading, and CLI tool development.
+A lightweight and efficient port scanner written in Python. Developed as a practical project to understand network sockets, multi-threading, and CLI tool development.
 
 ## 🚀 Features
 - **Concurrent Scanning**: Uses Python's `threading` module to scan multiple ports simultaneously.
-- **Robust Argument Parsing**: Powered by `argparse` for a better CLI experience.
+- **Robust Argument Parsing**: Powered by `argparse` for a professional CLI experience.
 - **Input Validation**: Strictly adheres to the TCP/IP port range (1-65535).
 - **Error Handling**: Gracefully handles invalid inputs and connection timeouts.
 
@@ -33,6 +33,8 @@ Example:
 python threaded-network-scanner.py 127.0.0.1 -p 1-1024
 
 ```
+
+![Scanner Demo](demo.png)
 
 ## ⚖️ Disclaimer
 
